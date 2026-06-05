@@ -1,3 +1,29 @@
-# Notification System Design
+# Stage 1
 
-This document will contain the design of the notification system.
+## Core Notification Features
+
+- Create notification
+- Fetch notifications
+- Mark notification as read
+- Delete notification
+
+## API Endpoints
+
+### GET /api/v1/notifications
+
+#### Request Headers
+
+Authorization: Bearer <JWT_TOKEN>
+Accept: application/json
+
+#### Response
+
+{
+  "data": []
+}
+
+# Stage 2
+
+## Database Choice
+
+PostgreSQL
